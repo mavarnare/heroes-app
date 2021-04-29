@@ -10,7 +10,7 @@ export const Navbar = () => {
 
     const handleLogout = () => {
         dispatch({ type: types.logout });
-        history.push('/login');
+        history.replace('/login');
     };
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">

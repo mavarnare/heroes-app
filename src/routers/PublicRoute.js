@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { Redirect, Route } from 'react-router';
 
 export const PublicRoute = ({ isAuthenticated, ...rest }) => {

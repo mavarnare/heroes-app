@@ -21,7 +21,6 @@ export const HeroScreen = ({ history }) => {
         first_appearance,
         characters,
     } = hero;
-    console.log(hero);
 
     return (
         <div className="row mt-5">
