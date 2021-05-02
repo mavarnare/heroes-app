@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for <AppRouter /> should show <DashboardRoutes /> if authenticated 1`] = `
+<div>
+  Array [
+    <nav
+      className="navbar navbar-expand-sm navbar-dark bg-dark"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        Asociaciones
+      </a>
+      <div
+        className="navbar-collapse"
+      >
+        <div
+          className="navbar-nav"
+        >
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            aria-current="page"
+            className="nav-item nav-link active"
+            href="/search"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Search
+          </a>
+        </div>
+      </div>
+      <div
+        className="navbar-collapse collapse w-100 order-3 dual-collapse2"
+      >
+        <ul
+          className="navbar-nav ml-auto"
+        >
+          <span
+            className="nav-item nav-link text-info"
+          >
+            Mavarnare
+          </span>
+          <button
+            className="nav-item nav-link btn"
+            onClick={[Function]}
+          >
+            Logout
+          </button>
+        </ul>
+      </div>
+    </nav>,
+    <div
+      className="container mt-2"
+    >
+      <div>
+        <h1>
+          Search Screen
+        </h1>
+        <hr />
+        <div
+          className="row"
+        >
+          <div
+            className="col-5"
+          >
+            <h4>
+              Search Form
+            </h4>
+            <hr />
+            <form
+              onSubmit={[Function]}
+            >
+              <input
+                autoComplete="off"
+                className="form-control"
+                name="searchText"
+                onChange={[Function]}
+                placeholder="Find your hero"
+                type="text"
+                value=""
+              />
+              <button
+                className="btn m-1 btn-block btn-outline-primary"
+                type="submit"
+              >
+                Search...
+              </button>
+            </form>
+          </div>
+          <div
+            className="col-7"
+          >
+            <h4>
+              Results
+            </h4>
+            <hr />
+            <div
+              className="alert alert-info"
+            >
+              Search a hero
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>,
+  ]
+</div>
+`;
+
+exports[`tests for <AppRouter /> should show <LoginScreen /> if not authenticated 1`] = `
+<div>
+  <div
+    className="container mt-5"
+  >
+    <h1>
+      Login
+    </h1>
+    <hr />
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;

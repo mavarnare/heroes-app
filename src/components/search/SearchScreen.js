@@ -14,7 +14,7 @@ export const SearchScreen = ({ history }) => {
     const heroesFiltered = useMemo(() => getHeroesByName( q ), [ q ]);
     
     const [searchValues, handleInputChange] = useForm({
-        searchText: '',
+        searchText: q || '',
     });
 
     const { searchText } = searchValues;
@@ -41,6 +41,7 @@ export const SearchScreen = ({ history }) => {
                             placeholder="Find your hero"
                             className="form-control"
                             onChange={ handleInputChange }
+                            value={ searchText }
                             autoComplete='off'
                         />
 
